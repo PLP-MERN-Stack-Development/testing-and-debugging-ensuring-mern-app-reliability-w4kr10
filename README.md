@@ -130,7 +130,11 @@ Our implementation achieves over 70% code coverage for unit tests across both cl
 
 ## 📸 Test Coverage Reports
 
-Screenshots of test coverage reports would be included here in a real submission.
+Unit Testing
+![alt text](image.png)
+
+Integration Testing
+![alt text](image-1.png)
 
 ## 📚 Resources
 
