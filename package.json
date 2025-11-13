@@ -1,0 +1,24 @@
+{
+  "name": "mern-bug-tracker",
+  "version": "1.0.0",
+  "description": "MERN stack testing and debugging assignment",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install && cd ..",
+    "test": "npm run test:client && npm run test:server",
+    "test:client": "cd client && npm test",
+    "test:server": "cd server && npm test",
+    "test:unit": "npm run test:unit:client && npm run test:unit:server",
+    "test:unit:client": "cd client && npm run test:unit",
+    "test:unit:server": "cd server && npm run test:unit",
+    "test:integration": "npm run test:integration:client && npm run test:integration:server",
+    "test:integration:client": "cd client && npm run test:integration",
+    "test:integration:server": "cd server && npm run test:integration",
+    "test:e2e": "cd client && npx cypress run",
+    "dev:client": "cd client && npm start",
+    "dev:server": "cd server && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": ["mern", "testing", "debugging"],
+  "author": "MERN-BUG-TRACKER",
+  "license": "MIT"
+}

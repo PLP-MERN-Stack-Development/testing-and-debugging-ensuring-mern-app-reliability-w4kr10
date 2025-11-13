@@ -38,6 +38,7 @@ module.exports = {
         '!client/src/index.js',
         '!**/node_modules/**',
       ],
+      testPathIgnorePatterns: ['/node_modules/', '/build/'],
     },
   ],
   
